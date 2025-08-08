@@ -176,10 +176,10 @@
 // function name() { } ; 
 // console.log( );
 
-function greeting() {
-    // console.log( 'Good Evening');
- } ;  
- greeting() 
+// function greeting() {
+//     // console.log( 'Good Evening');
+//  } ;  
+//  greeting() 
 
 
 //types of function
@@ -253,19 +253,41 @@ function greeting() {
 
 
 
+//different types of parameters
+//default parameter
+// function greetings(name = 'Guest'){
+//     console.log('hello,' + name)
+// }
+
+// greetings()
+
+
+// function add(a = 0, b = 0){
+//     console.log(a + b)
+// }
+// add(30, 30)
+
+
+// //rest/spread parameter
+// function sumAll(...numbers){
+//  let sum = 0;
+//   for(const num of numbers){
+//     sum += num
+//   }
+//   console.log(sum)
+// }
+// sumAll(10, 20, 30)
+// sumAll(10, 20)
+// sumAll(10, 20, 60)
 
 
 
-
-
-
-
-
-
-
-
-
-
+//sort
+const numbers = [40, 10, 200, 50]
+ numbers.sort(function (a, b){
+    return a - b
+ })
+ console.log(numbers)
 
 
 
